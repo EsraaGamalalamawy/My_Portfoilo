@@ -1,0 +1,293 @@
+body{
+  background-color: black;
+  z-index: 0;
+  font-family: 'Love Ya Like A Sister', cursive;
+  overflow-X: hidden;
+}
+*::selection{
+  background-color:rgba(149, 217, 223, 0.445);
+}
+:root{
+  --maincolor:rgb(149 217 223);
+  --darkcolor: rgb(0 60 78);
+  --fontcolor:rgb(1 30 46);
+}
+a{
+  text-decoration: none;
+}
+.title{
+  color: var(--maincolor);
+  text-shadow: 3px 4px 3px var(--darkcolor);
+}
+.btn1{
+  border: solid 2px var(--maincolor);
+  background: var(--fontcolor);
+  cursor: pointer;
+  color: var(--maincolor);
+}
+.btn1 a{
+  color: var(--maincolor);
+}
+.btn1:hover{
+  background-color: var(--maincolor);
+  color: var(--darkcolor);
+}
+.btn1:hover >a{
+  color: var(--fontcolor);
+}
+.btn2{
+  background: var(--maincolor);
+  color: var(--fontcolor);
+  cursor: pointer;
+  border: solid 2px var(--maincolor);
+}
+.btn2:focus{
+  box-shadow: inset 0px 0px 7px 0px var(--fontcolor);
+}
+/* //////////////////////////////////////////////////// */
+.header{
+  position: fixed;
+  background: #001f2ebf;
+  bottom: 10px;
+  width: 50%;
+  z-index: 100;
+  left: 50%;
+  transform: translateX(-50%);
+  backdrop-filter: blur(2px);
+}
+.header a{
+  color: var(--maincolor);
+  cursor: pointer;
+}
+.header .active{
+  color: var(--darkcolor);
+  background-color: var(--maincolor);
+} 
+/* ///////////////////////////// */
+.background{
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  opacity: .5;
+}
+.background::after{
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  background-color: red;
+  opacity: .5;
+}
+/* ////////////////////////////////////////////////main////////////////////////////////////////////////////////////////// */
+.main{
+  width: 80%;
+  margin: auto;
+}
+.main .one{
+  position: absolute;
+  top: 50%;
+  left: 2%;
+  transform: translatey(-50%);
+}
+.main .one a{
+  color: var(--maincolor);
+}
+.main .one a svg:hover{
+  color: white;
+  box-shadow: 0 0 5px 0px var(--maincolor);
+  border-radius: 50%;
+}
+.main .content {
+  padding-right: 20px;
+  color: var(--maincolor);
+  box-sizing: border-box;
+}
+.main h4{
+  height: 60px;
+}
+.main .content{
+  transition: 1s;
+  opacity: 0;
+  margin-right: -30%;
+}
+.main .myPhoto{
+  width: 30%;
+  height: 45vh;
+  background: linear-gradient(45deg, var(--maincolor) -40%, var(--darkcolor) );
+  position: relative;
+  align-self: start;
+  transition:1s
+}
+.main .myPhoto img{
+  width: 98%;
+  height: 98%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(6deg);
+  transition: .5s;
+  cursor: pointer;
+}
+.main .myPhoto img:hover{
+  transform: translate(-50%, -50%) rotate(0deg);
+}
+/* /////////////////////////////////////////////////////////////////////////////////// */
+#about {
+  transition: 2s;
+  opacity: 0;
+  transform: translateX(-50%)
+}
+#about .content{
+  color: var(--maincolor);
+}
+#about .description{
+  color: var(--maincolor);
+  text-align: center;
+  margin-top: -8px;
+}
+#about .boxs div{
+  background: rgb(1 30 46 / 58%);
+  backdrop-filter: blur(3px);
+  box-sizing: border-box;
+}
+#about .projects{
+  cursor: pointer;
+}
+#about .info{
+  background: rgb(1 30 46 / 58%);
+  backdrop-filter: blur(3px);
+}
+#about .info .mail{
+  width: 100%;
+}
+#about .info h3{
+  min-width: 48%;
+}
+#about .info span{
+  font-size: 15px;
+  font-weight: 100;
+}
+/* /////////////////////////////////Projects////////////////////////////////// */
+#skills{
+  color: var(--maincolor);
+}
+.element{
+  width: 115px;
+  position: relative;
+}
+.element h2{
+      position: absolute;
+    top: 35px;
+    left: 40px;
+    font-size: 35px;
+}
+.element h3{
+  margin: 0;
+}
+.circle{
+  fill:rgb(1 30 46 / 72%);
+  stroke: rgba(128, 128, 128, 0.199);
+}
+.progress{
+  fill:none;
+  stroke: var(--maincolor);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  transition: 2s;
+}
+/* ///////////////////////////////////////////contact///////////////////////////////////////////////////////// */
+#contact {
+  transition: 2s;
+}
+#contact .left{
+  width: 23%;
+  box-shadow: inset 0 0 7px 1px var(--darkcolor);
+  box-sizing: border-box;
+}
+#contact h2{
+  color: var(--maincolor);
+}
+#contact .right{
+  width: 60%;
+  box-shadow: inset 0 0 7px 1px var(--darkcolor);
+  box-sizing: border-box;
+}
+#contact .right input,#contact .right textarea{
+  width: 100%;
+  margin-bottom: 10px;
+  background: rgb(0 60 78 / 53%);
+  border: solid 2px var(--darkcolor);
+  padding: 10px 10px;
+  border-radius: 7px;
+  color: var(--maincolor);
+  outline: none;
+}
+#contact .right input::placeholder,#contact .right textarea::placeholder{
+  color: var(--maincolor);
+}
+#contact .right textarea{
+  height: 30vh;
+}
+#contact button{
+  align-self: start;
+}
+/* ///////////////////////////////////////////////// */
+.contact_talk{
+  background: rgb(0 60 78 / 48%);
+  border: solid 2px var(--darkcolor);
+  color: var(--maincolor);
+}
+.contact_talk a{
+  color: var(--maincolor);
+}
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+@media (max-width:768px) {
+  .main .content{
+    padding-right: 0;
+    text-align: center;
+  }
+  .main .btn{
+    justify-content:center;
+  }
+  .main .top{
+    flex-direction: column-reverse;
+    gap: 10px;
+    margin-top: 20px !important
+  }
+  .main .myPhoto{
+    height: 35vh;
+  }
+  .main h4 {
+    height: 90px;
+}
+  #about .boxs div h3 {
+    font-size: 18px;
+  }
+  #about .content {
+    min-height: 50vh;
+  }
+  #about .info h3{
+    width: 100%;
+  }
+  #contact .out {
+    flex-direction: column;
+  }
+  #contact .left, #contact .right{
+    width: 100%;
+  }
+  #contact .left .inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  #contact .right {
+    margin-top: 20px;
+  }
+}
