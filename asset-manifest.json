@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/My_Portfoilo/static/css/main.3563db31.css",
-    "main.js": "/My_Portfoilo/static/js/main.4b6f0bda.js",
+    "main.css": "/My_Portfoilo/static/css/main.773e0573.css",
+    "main.js": "/My_Portfoilo/static/js/main.a38d78da.js",
     "static/js/787.b031e383.chunk.js": "/My_Portfoilo/static/js/787.b031e383.chunk.js",
     "static/media/shopping2023.png": "/My_Portfoilo/static/media/shopping2023.6b10e8eaa89b824eddef.png",
     "static/media/landingPage.png": "/My_Portfoilo/static/media/landingPage.b3545d845b9220b141a8.png",
@@ -20,7 +20,7 @@
     "static/media/flowers.png": "/My_Portfoilo/static/media/flowers.f7d5ab8968e671968d5d.png",
     "static/media/task2.png": "/My_Portfoilo/static/media/task2.7f7106c0b0ab26df133c.png",
     "static/media/template3.png": "/My_Portfoilo/static/media/template3.d45ade31d60d33e5f3c3.png",
-    "static/media/Esraa Gamal Alamawy-Front End.pdf": "/My_Portfoilo/static/media/Esraa Gamal Alamawy-Front End.fef31913713b7fa39cde.pdf",
+    "static/media/Esraa Gamal Alamawy-Front End.pdf": "/My_Portfoilo/static/media/Esraa Gamal Alamawy-Front End.c169bef8ea24946e7e49.pdf",
     "static/media/backmon.png": "/My_Portfoilo/static/media/backmon.1571fd04e8e5419ca0da.png",
     "static/media/todolist.png": "/My_Portfoilo/static/media/todolist.fee8b415a9356690a77f.png",
     "static/media/task1.png": "/My_Portfoilo/static/media/task1.28e4365885b4014c0e93.png",
@@ -29,12 +29,12 @@
     "static/media/istockphoto-1325007051-612x612.jpg": "/My_Portfoilo/static/media/istockphoto-1325007051-612x612.207501ae66680915c677.jpg",
     "static/media/taskReact.png": "/My_Portfoilo/static/media/taskReact.d76361b77f9bf96ef7cd.png",
     "index.html": "/My_Portfoilo/index.html",
-    "main.3563db31.css.map": "/My_Portfoilo/static/css/main.3563db31.css.map",
-    "main.4b6f0bda.js.map": "/My_Portfoilo/static/js/main.4b6f0bda.js.map",
+    "main.773e0573.css.map": "/My_Portfoilo/static/css/main.773e0573.css.map",
+    "main.a38d78da.js.map": "/My_Portfoilo/static/js/main.a38d78da.js.map",
     "787.b031e383.chunk.js.map": "/My_Portfoilo/static/js/787.b031e383.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3563db31.css",
-    "static/js/main.4b6f0bda.js"
+    "static/css/main.773e0573.css",
+    "static/js/main.a38d78da.js"
   ]
 }
